@@ -5,13 +5,13 @@
 //  Created by adin on 2024/9/6.
 //
 
-#import "ViewController.h"
+#import "MegaLuckGoGoViewController.h"
 
-@interface ViewController ()
+@interface MegaLuckGoGoViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MegaLuckGoGoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

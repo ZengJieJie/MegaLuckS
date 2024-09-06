@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		6E557754A5C4838B8A9EEF51 /* Pods_MegaLuckSlotBliss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D336FE7D63C24944F3F6F1A /* Pods_MegaLuckSlotBliss.framework */; };
 		C616015C2C8B1EB600164E2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C616015B2C8B1EB600164E2C /* AppDelegate.m */; };
-		C61601622C8B1EB600164E2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61601612C8B1EB600164E2C /* ViewController.m */; };
+		C61601622C8B1EB600164E2C /* MegaLuckGoGoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61601612C8B1EB600164E2C /* MegaLuckGoGoViewController.m */; };
 		C61601652C8B1EB600164E2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61601632C8B1EB600164E2C /* Main.storyboard */; };
 		C61601672C8B1EB800164E2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C61601662C8B1EB800164E2C /* Assets.xcassets */; };
 		C616016A2C8B1EB800164E2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61601682C8B1EB800164E2C /* LaunchScreen.storyboard */; };
@@ -55,8 +55,8 @@
 		C61601572C8B1EB600164E2C /* MegaLuckSlotBliss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaLuckSlotBliss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C616015A2C8B1EB600164E2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C616015B2C8B1EB600164E2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C61601602C8B1EB600164E2C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C61601612C8B1EB600164E2C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C61601602C8B1EB600164E2C /* MegaLuckGoGoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MegaLuckGoGoViewController.h; sourceTree = "<group>"; };
+		C61601612C8B1EB600164E2C /* MegaLuckGoGoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MegaLuckGoGoViewController.m; sourceTree = "<group>"; };
 		C61601642C8B1EB600164E2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C61601662C8B1EB800164E2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C61601692C8B1EB800164E2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -158,8 +158,8 @@
 				C61601DB2C8B2D6000164E2C /* car.gif */,
 				C616015A2C8B1EB600164E2C /* AppDelegate.h */,
 				C616015B2C8B1EB600164E2C /* AppDelegate.m */,
-				C61601602C8B1EB600164E2C /* ViewController.h */,
-				C61601612C8B1EB600164E2C /* ViewController.m */,
+				C61601602C8B1EB600164E2C /* MegaLuckGoGoViewController.h */,
+				C61601612C8B1EB600164E2C /* MegaLuckGoGoViewController.m */,
 				C61601632C8B1EB600164E2C /* Main.storyboard */,
 				C61601662C8B1EB800164E2C /* Assets.xcassets */,
 				C61601682C8B1EB800164E2C /* LaunchScreen.storyboard */,
@@ -382,7 +382,7 @@
 				C61601E82C8B2D9A00164E2C /* Audio + Ext.swift in Sources */,
 				C61601EB2C8B2D9A00164E2C /* Corner + Ext.swift in Sources */,
 				C61601EF2C8B2E3100164E2C /* MegaLuckGetStartViewController.swift in Sources */,
-				C61601622C8B1EB600164E2C /* ViewController.m in Sources */,
+				C61601622C8B1EB600164E2C /* MegaLuckGoGoViewController.m in Sources */,
 				C61601F72C8B2EA700164E2C /* MegaLuckSlotGamevcViewController.swift in Sources */,
 				C61601E92C8B2D9A00164E2C /* Vc + Ext.swift in Sources */,
 				C616015C2C8B1EB600164E2C /* AppDelegate.m in Sources */,

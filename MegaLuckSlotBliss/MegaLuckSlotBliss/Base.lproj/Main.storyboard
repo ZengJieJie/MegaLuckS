@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Kiz-s0-gI0">
     <device id="retina6_12" orientation="landscape" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -139,19 +140,19 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kyf-os-yNi">
                                         <rect key="frame" x="0.0" y="0.0" width="77" height="0.0"/>
-                                        <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="30"/>
+                                        <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="45"/>
                                         <color key="textColor" name="lbl1"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jI7-jb-w79">
                                         <rect key="frame" x="77.000000000000014" y="0.0" width="76.999999999999986" height="0.0"/>
-                                        <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="30"/>
+                                        <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="45"/>
                                         <color key="textColor" name="lbl1"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4p8-5v-ljN">
                                         <rect key="frame" x="154" y="0.0" width="77" height="0.0"/>
-                                        <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="30"/>
+                                        <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="45"/>
                                         <color key="textColor" name="lbl1"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -639,16 +640,16 @@ Mega Luck Slot Bliss boasts a sleek, vibrant design that draws in players with e
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="4A1-0f-xEW">
-                                                    <rect key="frame" x="10" y="10" width="425.33333333333331" height="308"/>
+                                                    <rect key="frame" x="10" y="10" width="425" height="308"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   Enter Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CvC-Xs-me2">
-                                                            <rect key="frame" x="0.0" y="0.0" width="425.33333333333331" height="0.0"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="425" height="0.0"/>
                                                             <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
                                                             <color key="textColor" name="lbl1"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Q71-v5-724">
-                                                            <rect key="frame" x="0.0" y="11" width="425.33333333333331" height="40"/>
+                                                            <rect key="frame" x="0.0" y="11" width="425" height="40"/>
                                                             <color key="backgroundColor" name="cell"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="40" id="XwI-Og-n97"/>
@@ -658,7 +659,7 @@ Mega Luck Slot Bliss boasts a sleek, vibrant design that draws in players with e
                                                             <textInputTraits key="textInputTraits"/>
                                                         </textField>
                                                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="eKG-T6-n6u">
-                                                            <rect key="frame" x="0.0" y="62" width="425.33333333333331" height="246"/>
+                                                            <rect key="frame" x="0.0" y="62" width="425" height="246"/>
                                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <string key="text">Mega Luck Slot Bliss is an exciting and visually captivating slot machine experience that brings the thrill of the casino right to your fingertips! With stunning graphics, engaging animations, and addictive gameplay, this app offers hours of entertainment for players who love the spin of the reels.
 </string>
@@ -696,10 +697,10 @@ Mega Luck Slot Bliss boasts a sleek, vibrant design that draws in players with e
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="xdM-Sg-72f">
-                                                    <rect key="frame" x="10" y="10" width="202.66666666666666" height="308"/>
+                                                    <rect key="frame" x="10" y="10" width="203" height="308"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H6m-F6-oMO">
-                                                            <rect key="frame" x="0.0" y="0.0" width="202.66666666666666" height="60"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="203" height="60"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="60" id="5qc-dG-vAs"/>
                                                             </constraints>
@@ -710,10 +711,10 @@ Slot Bliss</string>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Ayb-ge-909">
-                                                            <rect key="frame" x="0.0" y="71" width="202.66666666666666" height="171"/>
+                                                            <rect key="frame" x="0.0" y="71" width="203" height="171"/>
                                                         </imageView>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YSo-7Z-JoS">
-                                                            <rect key="frame" x="0.0" y="253" width="202.66666666666666" height="55"/>
+                                                            <rect key="frame" x="0.0" y="253" width="203" height="55"/>
                                                             <color key="backgroundColor" name="btn"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="55" id="ELf-7a-ybv"/>
@@ -793,6 +794,72 @@ Slot Bliss</string>
             </objects>
             <point key="canvasLocation" x="822.53521126760563" y="-985.49618320610682"/>
         </scene>
+        <!--Mega Luck Go Go View Controller-->
+        <scene sceneID="oa3-pF-euK">
+            <objects>
+                <viewController storyboardIdentifier="GOvc" id="t8p-1U-5xg" customClass="MegaLuckGoGoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jpb-jI-6JU">
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="tdj-dl-wn9">
+                                <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Pg3-rF-pyX">
+                                <rect key="frame" x="509" y="50" width="293" height="293"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Pg3-rF-pyX" secondAttribute="height" multiplier="1:1" id="BcC-lt-ryK"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ozw-YP-XTJ">
+                                <rect key="frame" x="159" y="169" width="203" height="55"/>
+                                <color key="backgroundColor" name="btn"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="203" id="pun-uS-sml"/>
+                                    <constraint firstAttribute="height" constant="55" id="sg6-Gz-I0c"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="20"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Go Go Go">
+                                    <color key="titleColor" name="lbl1"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" name="lbl1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="btnStart:" destination="IBM-TP-DVE" eventType="touchUpInside" id="jXJ-bc-Ao7"/>
+                                    <segue destination="IBM-TP-DVE" kind="push" id="03V-F3-K4w"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="rDP-dL-1rA"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="tdj-dl-wn9" secondAttribute="trailing" id="16w-Gv-HPT"/>
+                            <constraint firstItem="Ozw-YP-XTJ" firstAttribute="leading" secondItem="rDP-dL-1rA" secondAttribute="leading" constant="100" id="21h-9V-uJU"/>
+                            <constraint firstItem="Pg3-rF-pyX" firstAttribute="top" secondItem="rDP-dL-1rA" secondAttribute="top" constant="50" id="Eh1-uo-26o"/>
+                            <constraint firstItem="tdj-dl-wn9" firstAttribute="top" secondItem="jpb-jI-6JU" secondAttribute="top" id="lKK-Tf-I7G"/>
+                            <constraint firstItem="tdj-dl-wn9" firstAttribute="leading" secondItem="jpb-jI-6JU" secondAttribute="leading" id="pZw-AC-IV5"/>
+                            <constraint firstAttribute="bottom" secondItem="tdj-dl-wn9" secondAttribute="bottom" id="qNE-ct-fMQ"/>
+                            <constraint firstAttribute="bottom" secondItem="Pg3-rF-pyX" secondAttribute="bottom" constant="50" id="u26-UD-QEK"/>
+                            <constraint firstItem="Ozw-YP-XTJ" firstAttribute="centerY" secondItem="jpb-jI-6JU" secondAttribute="centerY" id="vaJ-Bu-Jm9"/>
+                            <constraint firstAttribute="trailing" secondItem="Pg3-rF-pyX" secondAttribute="trailing" constant="50" id="wSP-xb-2JL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="rfQ-KF-Bh0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Xk-Bk-2F3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="176" y="-1312"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="w6m-la-OIH">
             <objects>
@@ -803,7 +870,7 @@ Slot Bliss</string>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="IBM-TP-DVE" kind="relationship" relationship="rootViewController" id="etY-KA-Td2"/>
+                        <segue destination="t8p-1U-5xg" kind="relationship" relationship="rootViewController" id="srS-ZG-31u"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iea-nO-Og5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -833,6 +900,9 @@ Slot Bliss</string>
         <namedColor name="lbl1">
             <color red="0.090000003576278687" green="0.23100000619888306" blue="0.27099999785423279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
