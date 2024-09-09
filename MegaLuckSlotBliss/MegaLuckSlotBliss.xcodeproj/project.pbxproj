@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C777DB7EA1FAF1F3D5D82BA /* Pods_MegaLuckSlotBliss_MegaLuckSlotBlissUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AD35019F3555D30C93DA39 /* Pods_MegaLuckSlotBliss_MegaLuckSlotBlissUITests.framework */; };
+		4EA5C5862C8EB6B000F51297 /* CollectScoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5C5852C8EB6B000F51297 /* CollectScoreVC.swift */; };
+		4EA5C5882C8EB6D000F51297 /* GameScene1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5C5872C8EB6D000F51297 /* GameScene1.swift */; };
+		4EA5C58A2C8EC36900F51297 /* QuizHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5C5892C8EC36900F51297 /* QuizHistoryVC.swift */; };
+		6E31F580F783C752A51166A4 /* Pods_MegaLuckSlotBlissTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7ED48730C86A31ED555D21 /* Pods_MegaLuckSlotBlissTests.framework */; };
 		6E557754A5C4838B8A9EEF51 /* Pods_MegaLuckSlotBliss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D336FE7D63C24944F3F6F1A /* Pods_MegaLuckSlotBliss.framework */; };
 		C616015C2C8B1EB600164E2C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C616015B2C8B1EB600164E2C /* AppDelegate.m */; };
 		C61601622C8B1EB600164E2C /* MegaLuckGoGoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61601612C8B1EB600164E2C /* MegaLuckGoGoViewController.m */; };
@@ -51,7 +56,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C7ED48730C86A31ED555D21 /* Pods_MegaLuckSlotBlissTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MegaLuckSlotBlissTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA5C5852C8EB6B000F51297 /* CollectScoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectScoreVC.swift; sourceTree = "<group>"; };
+		4EA5C5872C8EB6D000F51297 /* GameScene1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene1.swift; sourceTree = "<group>"; };
+		4EA5C5892C8EC36900F51297 /* QuizHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizHistoryVC.swift; sourceTree = "<group>"; };
+		4FE012AFA507E55EA9D2B898 /* Pods-MegaLuckSlotBlissTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MegaLuckSlotBlissTests.release.xcconfig"; path = "Target Support Files/Pods-MegaLuckSlotBlissTests/Pods-MegaLuckSlotBlissTests.release.xcconfig"; sourceTree = "<group>"; };
+		86AD35019F3555D30C93DA39 /* Pods_MegaLuckSlotBliss_MegaLuckSlotBlissUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MegaLuckSlotBliss_MegaLuckSlotBlissUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A9FB7E896404306E2E7DB1F /* Pods-MegaLuckSlotBliss-MegaLuckSlotBlissUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MegaLuckSlotBliss-MegaLuckSlotBlissUITests.debug.xcconfig"; path = "Target Support Files/Pods-MegaLuckSlotBliss-MegaLuckSlotBlissUITests/Pods-MegaLuckSlotBliss-MegaLuckSlotBlissUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D336FE7D63C24944F3F6F1A /* Pods_MegaLuckSlotBliss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MegaLuckSlotBliss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD7183EEDD3728929E0FEBF6 /* Pods-MegaLuckSlotBlissTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MegaLuckSlotBlissTests.debug.xcconfig"; path = "Target Support Files/Pods-MegaLuckSlotBlissTests/Pods-MegaLuckSlotBlissTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C61601572C8B1EB600164E2C /* MegaLuckSlotBliss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaLuckSlotBliss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C616015A2C8B1EB600164E2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C616015B2C8B1EB600164E2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -84,6 +97,7 @@
 		C61601F62C8B2EA700164E2C /* MegaLuckSlotGamevcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaLuckSlotGamevcViewController.swift; sourceTree = "<group>"; };
 		CC07B0E4AC135FFBC1F33F79 /* Pods-MegaLuckSlotBliss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MegaLuckSlotBliss.release.xcconfig"; path = "Target Support Files/Pods-MegaLuckSlotBliss/Pods-MegaLuckSlotBliss.release.xcconfig"; sourceTree = "<group>"; };
 		DA5AA067AC9091D7C127DE62 /* Pods-MegaLuckSlotBliss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MegaLuckSlotBliss.debug.xcconfig"; path = "Target Support Files/Pods-MegaLuckSlotBliss/Pods-MegaLuckSlotBliss.debug.xcconfig"; sourceTree = "<group>"; };
+		EFE2B302047A836E6020FCC5 /* Pods-MegaLuckSlotBliss-MegaLuckSlotBlissUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MegaLuckSlotBliss-MegaLuckSlotBlissUITests.release.xcconfig"; path = "Target Support Files/Pods-MegaLuckSlotBliss-MegaLuckSlotBlissUITests/Pods-MegaLuckSlotBliss-MegaLuckSlotBlissUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E31F580F783C752A51166A4 /* Pods_MegaLuckSlotBlissTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C777DB7EA1FAF1F3D5D82BA /* Pods_MegaLuckSlotBliss_MegaLuckSlotBlissUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +133,10 @@
 			children = (
 				DA5AA067AC9091D7C127DE62 /* Pods-MegaLuckSlotBliss.debug.xcconfig */,
 				CC07B0E4AC135FFBC1F33F79 /* Pods-MegaLuckSlotBliss.release.xcconfig */,
+				8A9FB7E896404306E2E7DB1F /* Pods-MegaLuckSlotBliss-MegaLuckSlotBlissUITests.debug.xcconfig */,
+				EFE2B302047A836E6020FCC5 /* Pods-MegaLuckSlotBliss-MegaLuckSlotBlissUITests.release.xcconfig */,
+				BD7183EEDD3728929E0FEBF6 /* Pods-MegaLuckSlotBlissTests.debug.xcconfig */,
+				4FE012AFA507E55EA9D2B898 /* Pods-MegaLuckSlotBlissTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -161,6 +181,9 @@
 				C61601602C8B1EB600164E2C /* MegaLuckGoGoViewController.h */,
 				C61601612C8B1EB600164E2C /* MegaLuckGoGoViewController.m */,
 				C61601632C8B1EB600164E2C /* Main.storyboard */,
+				4EA5C5892C8EC36900F51297 /* QuizHistoryVC.swift */,
+				4EA5C5852C8EB6B000F51297 /* CollectScoreVC.swift */,
+				4EA5C5872C8EB6D000F51297 /* GameScene1.swift */,
 				C61601662C8B1EB800164E2C /* Assets.xcassets */,
 				C61601682C8B1EB800164E2C /* LaunchScreen.storyboard */,
 				C616016B2C8B1EB800164E2C /* Info.plist */,
@@ -195,6 +218,8 @@
 			isa = PBXGroup;
 			children = (
 				9D336FE7D63C24944F3F6F1A /* Pods_MegaLuckSlotBliss.framework */,
+				86AD35019F3555D30C93DA39 /* Pods_MegaLuckSlotBliss_MegaLuckSlotBlissUITests.framework */,
+				3C7ED48730C86A31ED555D21 /* Pods_MegaLuckSlotBlissTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -225,6 +250,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C61601892C8B1EB800164E2C /* Build configuration list for PBXNativeTarget "MegaLuckSlotBlissTests" */;
 			buildPhases = (
+				9463A4A47E8B57FFC74F956D /* [CP] Check Pods Manifest.lock */,
 				C616016E2C8B1EB800164E2C /* Sources */,
 				C616016F2C8B1EB800164E2C /* Frameworks */,
 				C61601702C8B1EB800164E2C /* Resources */,
@@ -243,9 +269,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C616018C2C8B1EB800164E2C /* Build configuration list for PBXNativeTarget "MegaLuckSlotBlissUITests" */;
 			buildPhases = (
+				FC6F7654C4AE281DDCE2D538 /* [CP] Check Pods Manifest.lock */,
 				C61601782C8B1EB800164E2C /* Sources */,
 				C61601792C8B1EB800164E2C /* Frameworks */,
 				C616017A2C8B1EB800164E2C /* Resources */,
+				830B8341B176DF38B87C60E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -331,6 +359,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		830B8341B176DF38B87C60E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MegaLuckSlotBliss-MegaLuckSlotBlissUITests/Pods-MegaLuckSlotBliss-MegaLuckSlotBlissUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MegaLuckSlotBliss-MegaLuckSlotBlissUITests/Pods-MegaLuckSlotBliss-MegaLuckSlotBlissUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MegaLuckSlotBliss-MegaLuckSlotBlissUITests/Pods-MegaLuckSlotBliss-MegaLuckSlotBlissUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8AC4C84A58039A5A6C68BFD3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,6 +391,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MegaLuckSlotBliss/Pods-MegaLuckSlotBliss-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9463A4A47E8B57FFC74F956D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MegaLuckSlotBlissTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D5D8E8E75D03DA94AD5123C4 /* [CP] Check Pods Manifest.lock */ = {
@@ -370,6 +437,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FC6F7654C4AE281DDCE2D538 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MegaLuckSlotBliss-MegaLuckSlotBlissUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -379,9 +468,12 @@
 			files = (
 				C61601F32C8B2E4B00164E2C /* MegaLuckGamevcViewController.swift in Sources */,
 				C61601EA2C8B2D9A00164E2C /* Img + Ext.swift in Sources */,
+				4EA5C58A2C8EC36900F51297 /* QuizHistoryVC.swift in Sources */,
 				C61601E82C8B2D9A00164E2C /* Audio + Ext.swift in Sources */,
 				C61601EB2C8B2D9A00164E2C /* Corner + Ext.swift in Sources */,
+				4EA5C5882C8EB6D000F51297 /* GameScene1.swift in Sources */,
 				C61601EF2C8B2E3100164E2C /* MegaLuckGetStartViewController.swift in Sources */,
+				4EA5C5862C8EB6B000F51297 /* CollectScoreVC.swift in Sources */,
 				C61601622C8B1EB600164E2C /* MegaLuckGoGoViewController.m in Sources */,
 				C61601F72C8B2EA700164E2C /* MegaLuckSlotGamevcViewController.swift in Sources */,
 				C61601E92C8B2D9A00164E2C /* Vc + Ext.swift in Sources */,
@@ -570,7 +662,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -581,7 +673,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -610,7 +702,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -621,7 +713,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -643,6 +735,7 @@
 		};
 		C616018A2C8B1EB800164E2C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD7183EEDD3728929E0FEBF6 /* Pods-MegaLuckSlotBlissTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -661,6 +754,7 @@
 		};
 		C616018B2C8B1EB800164E2C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FE012AFA507E55EA9D2B898 /* Pods-MegaLuckSlotBlissTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -679,6 +773,7 @@
 		};
 		C616018D2C8B1EB800164E2C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A9FB7E896404306E2E7DB1F /* Pods-MegaLuckSlotBliss-MegaLuckSlotBlissUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -695,6 +790,7 @@
 		};
 		C616018E2C8B1EB800164E2C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFE2B302047A836E6020FCC5 /* Pods-MegaLuckSlotBliss-MegaLuckSlotBlissUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

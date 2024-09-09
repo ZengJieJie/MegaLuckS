@@ -1,0 +1,6 @@
+framework module Pods_MegaLuckSlotBliss_MegaLuckSlotBlissUITests {
+  umbrella header "Pods-MegaLuckSlotBliss-MegaLuckSlotBlissUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
