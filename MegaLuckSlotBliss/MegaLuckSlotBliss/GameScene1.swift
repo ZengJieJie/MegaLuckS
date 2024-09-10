@@ -14,7 +14,7 @@ protocol GameSceneDelegate1: AnyObject {
 }
 
 class GameScene1: SKScene {
-
+    var timenat=0.0;
     weak var scoreDelegate: GameSceneDelegate1?
 
     var score = 0 {
@@ -61,7 +61,7 @@ class GameScene1: SKScene {
         addChild(object)
 
         // Make the object fall faster
-        let moveAction = SKAction.move(to: CGPoint(x: randomX, y: -object.size.height), duration: 2.0)
+        let moveAction = SKAction.move(to: CGPoint(x: randomX, y: -object.size.height), duration: timenat)
         let removeAction = SKAction.removeFromParent()
         object.run(SKAction.sequence([moveAction, removeAction]))
     }

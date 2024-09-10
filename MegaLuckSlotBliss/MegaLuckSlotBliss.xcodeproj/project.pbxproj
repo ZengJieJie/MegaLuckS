@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2C777DB7EA1FAF1F3D5D82BA /* Pods_MegaLuckSlotBliss_MegaLuckSlotBlissUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AD35019F3555D30C93DA39 /* Pods_MegaLuckSlotBliss_MegaLuckSlotBlissUITests.framework */; };
-		4EA5C5862C8EB6B000F51297 /* CollectScoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5C5852C8EB6B000F51297 /* CollectScoreVC.swift */; };
+		4EA5C5862C8EB6B000F51297 /* MegaLuckCollectScoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5C5852C8EB6B000F51297 /* MegaLuckCollectScoreVC.swift */; };
 		4EA5C5882C8EB6D000F51297 /* GameScene1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5C5872C8EB6D000F51297 /* GameScene1.swift */; };
 		4EA5C58A2C8EC36900F51297 /* QuizHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA5C5892C8EC36900F51297 /* QuizHistoryVC.swift */; };
 		6E31F580F783C752A51166A4 /* Pods_MegaLuckSlotBlissTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7ED48730C86A31ED555D21 /* Pods_MegaLuckSlotBlissTests.framework */; };
@@ -36,6 +36,10 @@
 		C61601F32C8B2E4B00164E2C /* MegaLuckGamevcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61601F22C8B2E4B00164E2C /* MegaLuckGamevcViewController.swift */; };
 		C61601F52C8B2E6000164E2C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61601F42C8B2E6000164E2C /* GameScene.swift */; };
 		C61601F72C8B2EA700164E2C /* MegaLuckSlotGamevcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61601F62C8B2EA700164E2C /* MegaLuckSlotGamevcViewController.swift */; };
+		C6B0180F2C9003620034613C /* MegaLuckSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B0180E2C9003620034613C /* MegaLuckSettingViewController.swift */; };
+		C6B018112C9004260034613C /* MegaLuckPriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B018102C9004260034613C /* MegaLuckPriViewController.swift */; };
+		C6B018132C9004360034613C /* MegaLuckFebdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B018122C9004360034613C /* MegaLuckFebdViewController.swift */; };
+		C6B018152C9004640034613C /* MegaLuckDifficultyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B018142C9004640034613C /* MegaLuckDifficultyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +61,7 @@
 
 /* Begin PBXFileReference section */
 		3C7ED48730C86A31ED555D21 /* Pods_MegaLuckSlotBlissTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MegaLuckSlotBlissTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EA5C5852C8EB6B000F51297 /* CollectScoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectScoreVC.swift; sourceTree = "<group>"; };
+		4EA5C5852C8EB6B000F51297 /* MegaLuckCollectScoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaLuckCollectScoreVC.swift; sourceTree = "<group>"; };
 		4EA5C5872C8EB6D000F51297 /* GameScene1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene1.swift; sourceTree = "<group>"; };
 		4EA5C5892C8EC36900F51297 /* QuizHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizHistoryVC.swift; sourceTree = "<group>"; };
 		4FE012AFA507E55EA9D2B898 /* Pods-MegaLuckSlotBlissTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MegaLuckSlotBlissTests.release.xcconfig"; path = "Target Support Files/Pods-MegaLuckSlotBlissTests/Pods-MegaLuckSlotBlissTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +99,10 @@
 		C61601F22C8B2E4B00164E2C /* MegaLuckGamevcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaLuckGamevcViewController.swift; sourceTree = "<group>"; };
 		C61601F42C8B2E6000164E2C /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		C61601F62C8B2EA700164E2C /* MegaLuckSlotGamevcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaLuckSlotGamevcViewController.swift; sourceTree = "<group>"; };
+		C6B0180E2C9003620034613C /* MegaLuckSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaLuckSettingViewController.swift; sourceTree = "<group>"; };
+		C6B018102C9004260034613C /* MegaLuckPriViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaLuckPriViewController.swift; sourceTree = "<group>"; };
+		C6B018122C9004360034613C /* MegaLuckFebdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaLuckFebdViewController.swift; sourceTree = "<group>"; };
+		C6B018142C9004640034613C /* MegaLuckDifficultyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaLuckDifficultyViewController.swift; sourceTree = "<group>"; };
 		CC07B0E4AC135FFBC1F33F79 /* Pods-MegaLuckSlotBliss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MegaLuckSlotBliss.release.xcconfig"; path = "Target Support Files/Pods-MegaLuckSlotBliss/Pods-MegaLuckSlotBliss.release.xcconfig"; sourceTree = "<group>"; };
 		DA5AA067AC9091D7C127DE62 /* Pods-MegaLuckSlotBliss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MegaLuckSlotBliss.debug.xcconfig"; path = "Target Support Files/Pods-MegaLuckSlotBliss/Pods-MegaLuckSlotBliss.debug.xcconfig"; sourceTree = "<group>"; };
 		EFE2B302047A836E6020FCC5 /* Pods-MegaLuckSlotBliss-MegaLuckSlotBlissUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MegaLuckSlotBliss-MegaLuckSlotBlissUITests.release.xcconfig"; path = "Target Support Files/Pods-MegaLuckSlotBliss-MegaLuckSlotBlissUITests/Pods-MegaLuckSlotBliss-MegaLuckSlotBlissUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -182,7 +190,7 @@
 				C61601612C8B1EB600164E2C /* MegaLuckGoGoViewController.m */,
 				C61601632C8B1EB600164E2C /* Main.storyboard */,
 				4EA5C5892C8EC36900F51297 /* QuizHistoryVC.swift */,
-				4EA5C5852C8EB6B000F51297 /* CollectScoreVC.swift */,
+				4EA5C5852C8EB6B000F51297 /* MegaLuckCollectScoreVC.swift */,
 				4EA5C5872C8EB6D000F51297 /* GameScene1.swift */,
 				C61601662C8B1EB800164E2C /* Assets.xcassets */,
 				C61601682C8B1EB800164E2C /* LaunchScreen.storyboard */,
@@ -193,6 +201,10 @@
 				C61601F02C8B2E3E00164E2C /* MegaLuckHomeVcViewController.swift */,
 				C61601F22C8B2E4B00164E2C /* MegaLuckGamevcViewController.swift */,
 				C61601F62C8B2EA700164E2C /* MegaLuckSlotGamevcViewController.swift */,
+				C6B0180E2C9003620034613C /* MegaLuckSettingViewController.swift */,
+				C6B018102C9004260034613C /* MegaLuckPriViewController.swift */,
+				C6B018122C9004360034613C /* MegaLuckFebdViewController.swift */,
+				C6B018142C9004640034613C /* MegaLuckDifficultyViewController.swift */,
 			);
 			path = MegaLuckSlotBliss;
 			sourceTree = "<group>";
@@ -469,15 +481,19 @@
 				C61601F32C8B2E4B00164E2C /* MegaLuckGamevcViewController.swift in Sources */,
 				C61601EA2C8B2D9A00164E2C /* Img + Ext.swift in Sources */,
 				4EA5C58A2C8EC36900F51297 /* QuizHistoryVC.swift in Sources */,
+				C6B018152C9004640034613C /* MegaLuckDifficultyViewController.swift in Sources */,
 				C61601E82C8B2D9A00164E2C /* Audio + Ext.swift in Sources */,
 				C61601EB2C8B2D9A00164E2C /* Corner + Ext.swift in Sources */,
 				4EA5C5882C8EB6D000F51297 /* GameScene1.swift in Sources */,
 				C61601EF2C8B2E3100164E2C /* MegaLuckGetStartViewController.swift in Sources */,
-				4EA5C5862C8EB6B000F51297 /* CollectScoreVC.swift in Sources */,
+				4EA5C5862C8EB6B000F51297 /* MegaLuckCollectScoreVC.swift in Sources */,
 				C61601622C8B1EB600164E2C /* MegaLuckGoGoViewController.m in Sources */,
+				C6B018112C9004260034613C /* MegaLuckPriViewController.swift in Sources */,
 				C61601F72C8B2EA700164E2C /* MegaLuckSlotGamevcViewController.swift in Sources */,
 				C61601E92C8B2D9A00164E2C /* Vc + Ext.swift in Sources */,
+				C6B018132C9004360034613C /* MegaLuckFebdViewController.swift in Sources */,
 				C616015C2C8B1EB600164E2C /* AppDelegate.m in Sources */,
+				C6B0180F2C9003620034613C /* MegaLuckSettingViewController.swift in Sources */,
 				C61601F52C8B2E6000164E2C /* GameScene.swift in Sources */,
 				C61601ED2C8B2DA200164E2C /* Game + Protocol.swift in Sources */,
 				C61601E12C8B2D6900164E2C /* Mega_Luck_Slot_Bliss.xcdatamodeld in Sources */,

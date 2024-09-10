@@ -8,8 +8,8 @@
 import UIKit
 import SpriteKit
 
-class CollectScoreVC: UIViewController {
-
+class MegaLuckCollectScoreVC: UIViewController {
+    var timevctime=0.0
     @IBOutlet weak var View1: UIView!
     @IBOutlet weak var Credit: UILabel!
 
@@ -26,6 +26,12 @@ class CollectScoreVC: UIViewController {
 
     @IBAction func HistorySaved(_ sender: Any) {
         historySaved()
+    }
+    
+    
+    @IBAction func backcllick(_ sender: Any) {
+        
+        self.navigationController?.popViewController(animated: true)
     }
     
     func historySaved() {
@@ -57,6 +63,7 @@ class CollectScoreVC: UIViewController {
 
         // Load the GameScene
         let scene = GameScene1(size: skView.bounds.size)
+        scene.timenat=timevctime
         scene.scaleMode = .aspectFill
         scene.backgroundColor = .clear
         scene.scoreDelegate = self
@@ -76,7 +83,7 @@ class CollectScoreVC: UIViewController {
 }
 
 // MARK: - GameSceneDelegate
-extension CollectScoreVC: GameSceneDelegate1 {
+extension MegaLuckCollectScoreVC: GameSceneDelegate1 {
     func didUpdateScore(to newScore: Int) {
         self.score = newScore
     }
