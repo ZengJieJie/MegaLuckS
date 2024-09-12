@@ -1,0 +1,6 @@
+framework module Pods_YoNexusSlotsXtremeNo {
+  umbrella header "Pods-YoNexusSlotsXtremeNo-umbrella.h"
+
+  export *
+  module * { export * }
+}

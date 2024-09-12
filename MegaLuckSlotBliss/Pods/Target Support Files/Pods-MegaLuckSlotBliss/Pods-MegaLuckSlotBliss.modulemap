@@ -1,6 +1,0 @@
-framework module Pods_MegaLuckSlotBliss {
-  umbrella header "Pods-MegaLuckSlotBliss-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,0 +1,54 @@
+
+/* Class = "UILabel"; text = "777 score:"; ObjectID = "1ml-vK-Ybe"; */
+"1ml-vK-Ybe.text" = "777 score:";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "9fK-Xr-3RB"; */
+"9fK-Xr-3RB.normalTitle" = "Submit";
+
+/* Class = "UITextView"; text = "About Us\n\nAt Yo Nexus Slots Xtreme No, we are passionate about creating a thrilling gaming experience that combines the excitement of traditional slot machines with strategic challenges. Our mission is to deliver an engaging and fun game that appeals to both slot enthusiasts and puzzle lovers alike.\n\nWith innovative game modes and a user-friendly interface, we strive to bring an adrenaline-pumping experience to your fingertips. Whether you’re spinning the reels to win big or testing your skills in our tap-and-match challenge, we believe in providing endless entertainment, rewards, and challenges that keep players coming back for more.\n\nJoin us in the world of Nexus Slots Xtreme Pro, where every spin, tap, and match leads to adventure, fun, and incredible rewards!"; ObjectID = "9pG-iz-M5e"; */
+"9pG-iz-M5e.text" = "About Us\n\nAt Yo Nexus Slots Xtreme No, we are passionate about creating a thrilling gaming experience that combines the excitement of traditional slot machines with strategic challenges. Our mission is to deliver an engaging and fun game that appeals to both slot enthusiasts and puzzle lovers alike.\n\nWith innovative game modes and a user-friendly interface, we strive to bring an adrenaline-pumping experience to your fingertips. Whether you’re spinning the reels to win big or testing your skills in our tap-and-match challenge, we believe in providing endless entertainment, rewards, and challenges that keep players coming back for more.\n\nJoin us in the world of Nexus Slots Xtreme Pro, where every spin, tap, and match leads to adventure, fun, and incredible rewards!";
+
+/* Class = "UILabel"; text = "Your Message"; ObjectID = "D7A-Ji-JF9"; */
+"D7A-Ji-JF9.text" = "Your Message";
+
+/* Class = "UITextField"; placeholder = "Share your email, we'll reach out!"; ObjectID = "EBD-Ye-pBg"; */
+"EBD-Ye-pBg.placeholder" = "Share your email, we'll reach out!";
+
+/* Class = "UILabel"; text = "Rate us"; ObjectID = "KqT-aC-RE1"; */
+"KqT-aC-RE1.text" = "Rate us";
+
+/* Class = "UILabel"; text = "Turn"; ObjectID = "LSS-nZ-Ga8"; */
+"LSS-nZ-Ga8.text" = "Turn";
+
+/* Class = "UILabel"; text = "About us"; ObjectID = "MtL-KH-cZn"; */
+"MtL-KH-cZn.text" = "About us";
+
+/* Class = "UILabel"; text = "Your Email"; ObjectID = "SdB-gg-BQW"; */
+"SdB-gg-BQW.text" = "Your Email";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "TCl-rB-Xp2"; */
+"TCl-rB-Xp2.normalTitle" = "Submit";
+
+/* Class = "UILabel"; text = "Turns:"; ObjectID = "fg1-Xe-eJz"; */
+"fg1-Xe-eJz.text" = "Turns:";
+
+/* Class = "UILabel"; text = "Multi slots"; ObjectID = "hgo-p9-HHk"; */
+"hgo-p9-HHk.text" = "Multi slots";
+
+/* Class = "UIButton"; normalTitle = "RETRY"; ObjectID = "j5G-rm-Y42"; */
+"j5G-rm-Y42.normalTitle" = "RETRY";
+
+/* Class = "UILabel"; text = "More"; ObjectID = "p10-pw-oLk"; */
+"p10-pw-oLk.text" = "More";
+
+/* Class = "UILabel"; text = "Yo Nexus Slots Xtreme No"; ObjectID = "ujJ-o1-1fT"; */
+"ujJ-o1-1fT.text" = "Yo Nexus Slots Xtreme No";
+
+/* Class = "UILabel"; text = " Diamond score:"; ObjectID = "vWe-9c-fmo"; */
+"vWe-9c-fmo.text" = " Diamond score:";
+
+/* Class = "UILabel"; text = "Slots"; ObjectID = "vmb-OA-Sce"; */
+"vmb-OA-Sce.text" = "Slots";
+
+/* Class = "UILabel"; text = "Message"; ObjectID = "wvt-fP-C5v"; */
+"wvt-fP-C5v.text" = "Message";
